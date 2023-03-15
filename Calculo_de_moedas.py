@@ -22,4 +22,4 @@ total_caixa = (
     total_5_centavos + total_10_centavos + total_25_centavos + total_50_centavos + total_1_real
     )
 
-print(total_caixa)
+print(f'{total_caixa:.2f} R$')
