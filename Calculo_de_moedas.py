@@ -19,7 +19,11 @@ total_50_centavos = 15 * 0.50
 total_1_real = 19 * 1.00
 
 total_caixa = (
-    total_5_centavos + total_10_centavos + total_25_centavos + total_50_centavos + total_1_real
+    total_5_centavos + 
+    total_10_centavos + 
+    total_25_centavos + 
+    total_50_centavos + 
+    total_1_real
     )
 
 print(f'{total_caixa:.2f} R$')
