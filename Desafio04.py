@@ -6,8 +6,8 @@
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
 
-calculo1 = (n1*2) * (n2/2)
-calculo2 = n1*3 + n2
+calculo1 = (n1 * 2) * (n2 / 2)
+calculo2 = n1 * 3 + n2
 calculo3 = n2 ** 3
 
 print(f'Resultado 1: {calculo1:.0f}')
