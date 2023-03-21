@@ -21,8 +21,9 @@ chute = int(input('Digite um número: '))
 
 if chute == numero:
     print('Parabéns você acertou!')
+    
 if chute == numero:
     print('FIM DO PROGRAMA!')
 
 else:
-    print('Você errou...Tente novamente!')
+    print(f'Você errou... O número era: {numero}. Tente novamente!')
