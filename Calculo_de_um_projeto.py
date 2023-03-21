@@ -27,4 +27,17 @@ valor_total = (valor_inicial + horas_estimadas * valor_hora) + taxa
 print(f'{valor_total:.2f}')
 
 
+#Exemplo: 03 
+
+horas_estimadas = 80
+valor_inicial = 1000.00
+valor_hora = 20.45
+porcentagem = 15
+valor_parcial = (valor_inicial + horas_estimadas * valor_hora)
+taxa = valor_parcial * porcentagem / 100
+valor_total = valor_parcial + taxa
+
+print(f'{valor_total:.2f}')
+
+
   
