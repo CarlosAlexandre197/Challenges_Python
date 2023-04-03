@@ -27,12 +27,12 @@ print(soma_3_numeros(3, 6, 2))
 '''004 - Crie um programa que seja capaz de obter e somar todos os números passados pelo usuário como entrada, 
 permitindo somar qualquer quantidade de dados de entrada.'''
 
-#soma = 0
-#numero = int(input())
-#while (numero != -1):
-#  soma += numero
-#  numero = int(input())
-#print(soma)
+soma = 0
+numero = int(input())
+while (numero != -1):
+  soma += numero
+  numero = int(input())
+print(soma)
 
 '''005 - Faça um programa com uma função que necessite de um parâmetro. A função deve retornar "Positivo",
 se seu o número for maior que zero, "Negativo" se o número for menor que zero, e "Zero" se o número for igual a zero.'''
@@ -73,12 +73,12 @@ print(saida)
 '''008 - Crie uma função que receba duas palavras e retorne "True" caso a primeira palavra seja um prefixo da segunda, 
 e "False" caso contrário.'''
 
-#def verifica_prefixo(palavra1, palavra2):
-#  tamanho = len(palavra1)
-#  for indice in range(tamanho):
-#    if palavra1[indice] != palavra2[indice]:
-#      return False
-#  return True
+def verifica_prefixo(palavra1, palavra2):
+  tamanho = len(palavra1)
+  for indice in range(tamanho):
+    if palavra1[indice] != palavra2[indice]:
+      return False
+  return True
 
-#resultado = verifica_prefixo('programa', 'programador')
-#print(resultado)
+resultado = verifica_prefixo('programa', 'programador')
+print(resultado)
