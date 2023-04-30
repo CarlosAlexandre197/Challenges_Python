@@ -1,2 +1,2 @@
-# Desafios_Python
-Desafios na linguagem Python. 
+#Challenges_Python
+Challenges in the Python language.
