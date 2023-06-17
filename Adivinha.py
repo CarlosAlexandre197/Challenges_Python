@@ -1,4 +1,4 @@
-'''Faça um programa que o usuário precise tentar advinhar um número de 1 a 10.'''
+'''Faça uma aplicação que o usuário precise tentar advinhar um número de 1 a 10.'''
 
 from random import randint
 
